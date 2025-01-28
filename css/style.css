@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Work Sans", serif;
+    font-weight: 700;
+}
+
+#bod {
+    /* font-family: "Poppins", sans-serif; */
+    background-color: rgb(10, 9, 9);
+    scroll-behavior: smooth;
+    scroll-padding: 50px;
+}
+
+
+
+.header-logo{
+    width: 80px;
+}
+
+.hero-img{
+    width: 150px;
+}
+
+.exp-img{
+    width: 40px;
+    height: 40px;
+}
+
+.hero-header{
+    color: white;
+    font-size: 30px;
+    margin-top: 10px;
+    font-weight: 700;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    letter-spacing: 3px;
+
+}
+    
+
+.yazar{
+    font-size: 50px;
+    background: linear-gradient(to bottom right, orange, purple);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    /* animation: typing 5s; */
+
+}
+
+.hero-para{
+    font-size: 16px;
+    text-align: center;
+}
+
+.getin{
+    background-color: white;
+    color: #1e1e1e;
+    border-radius: 30px;
+    padding: 15px 25px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.cv{
+    border: 1px solid white;
+    color: white;
+    border-radius: 30px;
+    padding: 15px 25px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.exp-header{
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 5px;
+    text-align: center;
+    color: white;
+}
+.prj-header{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    color: orange;
+    letter-spacing: 5px;
+    margin-bottom: 50px;
+}
+
+.cards{
+    /* width:350px; */
+    background-color: #1e1e1e;
+    border-radius: 15px ;
+}
+.pro-img{
+    width: 100%;
+}
+.pro-desc{
+    padding: 10px;
+}
+.pro-a{
+    text-decoration: none;
+    color: white;
+}
+
+.card-desc{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+form input{
+    width: 450px;
+    padding:  10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    font-weight: 500;
+}
+.textar{
+    width: 450px;
+    padding:  10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    font-weight: 500;
+}
+.con-header{
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 5px;
+    text-align: center;
+    color: blue
+}
+
+.footer{
+    background-color: #1e1e1e;
+}
+
+.prj-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+p{
+    color: rgb(134, 131, 131);
+    font-size: 15px;
+    font-weight: 500;
+    text-align: justify;
+}
+.hh{
+    color: rgb(207, 203, 203);
+    font-size: 30px;
+    font-weight: 700;
+    border-bottom: 2px solid;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    letter-spacing: 3px;
+}
+
+::placeholder{
+    font-size: 14px;
+    font-weight: 600;
+}
+@keyframes typing{
+    from{width:0}
+}
+@media (max-width:425px){
+    form input{
+        width:400px
+    }
+    .yazar{
+        font-size: 25px;
+    }
+}
